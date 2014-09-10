@@ -1,0 +1,14 @@
+{
+  "name": "Free Software VTU Lab Manual",
+  "description": "This is the Lab Manual app for Vishweshwarayya Technical University syllabus completely based on Free Software. The Free Software VTU Lab Manual project aims to migrate all the labs in various engineering colleges to use Free Software. Currently it is completely possible to migrate the lab of CSE Department to Free Software. This project is started and led by Free Software Movement Karnataka. ",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Your name or organization",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "en"
+}

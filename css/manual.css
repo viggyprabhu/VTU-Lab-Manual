@@ -1,0 +1,32 @@
+body {
+	background-image: url(../images/fsmk_menu_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	-moz-background-size: contain;
+	color: #ffffff;
+	border: none;
+}
+
+.page-header {
+	text-align: center;
+	border: none;
+}
+
+.list-group {
+	background: transparent;
+	border: none;
+
+}
+
+.list-group-item {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+.list-group-item-text {
+	color: #ffffff;
+
+}
