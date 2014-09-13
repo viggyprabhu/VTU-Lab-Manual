@@ -1,0 +1,794 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Introduction to MySQL | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <meta name="author" content="fsmk">
+    
+    
+    <link rel="next" href="../SYLLABUS.html" />
+    
+    
+    <link rel="prev" href="../About.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-github="fsmk/CS-VTU-Lab-Manual" data-level="5" data-basepath=".." data-revision="1404290030481">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="https://github.com/fsmk" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/issues" target="blank"class="issues-link">Questions and Issues</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/edit/master/00_Introduction_to_MySQL/Introduction_to_MySQL.md" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="Content.html">
+            
+            <a href="../Content.html">
+                <i class="fa fa-check"></i> <b>1.</b> Content
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="Foreword.html">
+            
+            <a href="../Foreword.html">
+                <i class="fa fa-check"></i> <b>2.</b> Foreword
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Contributors.html">
+            
+            <a href="../Contributors.html">
+                <i class="fa fa-check"></i> <b>3.</b> Contributors
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="About.html">
+            
+            <a href="../About.html">
+                <i class="fa fa-check"></i> <b>4.</b> About
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+            
+            <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+                <i class="fa fa-check"></i> <b>5.</b> Introduction to MySQL
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="SYLLABUS.html">
+            
+            <a href="../SYLLABUS.html">
+                <i class="fa fa-check"></i> <b>6.</b> Syllabus
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="01_StudentClass/01_StudentClass.html">
+            
+            <a href="../01_StudentClass/01_StudentClass.html">
+                <i class="fa fa-check"></i> <b>7.</b> Problem 1: Student Class
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="02_AirlineFlight/02_AirlineFlight.html">
+            
+            <a href="../02_AirlineFlight/02_AirlineFlight.html">
+                <i class="fa fa-check"></i> <b>8.</b> Problem 2: Airline Flight
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+            
+            <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+                <i class="fa fa-check"></i> <b>9.</b> Problem 3: Student Course Books
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="04_BookDealer/04_BookDealer.html">
+            
+            <a href="../04_BookDealer/04_BookDealer.html">
+                <i class="fa fa-check"></i> <b>10.</b> Problem 4: Book dealer
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="05_BankingEnterprise/05_BankingEnterprise.html">
+            
+            <a href="../05_BankingEnterprise/05_BankingEnterprise.html">
+                <i class="fa fa-check"></i> <b>11.</b> Problem 5: Banking Enterprise
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 45.45454545454545%;min-width: 36.36363636363637%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../Content.html" title="Content" class="chapter done new-chapter" data-progress="1" style="left: 9.090909090909092%;"></a>
+    
+        <a href="../Foreword.html" title="Foreword" class="chapter done new-chapter" data-progress="2" style="left: 18.181818181818183%;"></a>
+    
+        <a href="../Contributors.html" title="Contributors" class="chapter done new-chapter" data-progress="3" style="left: 27.272727272727273%;"></a>
+    
+        <a href="../About.html" title="About" class="chapter done new-chapter" data-progress="4" style="left: 36.36363636363637%;"></a>
+    
+        <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html" title="Introduction to MySQL" class="chapter done new-chapter" data-progress="5" style="left: 45.45454545454545%;"></a>
+    
+        <a href="../SYLLABUS.html" title="Syllabus" class="chapter  new-chapter" data-progress="6" style="left: 54.54545454545455%;"></a>
+    
+        <a href="../01_StudentClass/01_StudentClass.html" title="Problem 1: Student Class" class="chapter  new-chapter" data-progress="7" style="left: 63.63636363636363%;"></a>
+    
+        <a href="../02_AirlineFlight/02_AirlineFlight.html" title="Problem 2: Airline Flight" class="chapter  new-chapter" data-progress="8" style="left: 72.72727272727273%;"></a>
+    
+        <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" title="Problem 3: Student Course Books" class="chapter  new-chapter" data-progress="9" style="left: 81.81818181818181%;"></a>
+    
+        <a href="../04_BookDealer/04_BookDealer.html" title="Problem 4: Book dealer" class="chapter  " data-progress="10" style="left: 90.9090909090909%;"></a>
+    
+        <a href="../05_BankingEnterprise/05_BankingEnterprise.html" title="Problem 5: Banking Enterprise" class="chapter  " data-progress="11" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_14">
+                    
+                        <h1 id="mysql-user-guide">MySQL User guide</h1>
+<ol>
+<li><p><strong>How to install Mysql?</strong></p>
+<ul>
+<li><p><strong>With internet connection:</strong> </p>
+<ol>
+<li><p><strong>Using terminal:</strong></p>
+<p>  To install MySQL, run the following command from a terminal prompt: </p>
+<p> <b><em>sudo apt-get install mysql-server</em></b></p>
+<p> During the installation process you will be prompted to enter a password for the MySQL root user.
+Once the installation is complete, the MySQL server should be started automatically. You can run the following command from a terminal prompt to check whether the MySQL server is running: </p>
+<p> <em><b>sudo netstat -tap | grep mysql</b></em></p>
+<p> When you run this command, you should see the following line or something similar: </p>
+<p> <em><b><pre>tcp   0   0 localhost:mysql       `</em><code>:</code><em>`        LISTEN 2556/mysqld</pre></b></em>
+ If the server is not running correctly, you can type the following command to start it: </p>
+<p> <em><b>sudo /etc/init.d/mysql restart</b></em></p>
+<ol>
+<li><p><strong>Using Ubuntu software Center:</strong></p>
+<p>Open ubuntu softaware centre, type Mysql Server in search, Click Install.</p>
+</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li><p><strong>Offline installation:</strong></p>
+<ol>
+<li><p><strong>Using terminal: </strong></p>
+<p>a. Download or acquire the deb packages of mysql. 
+<a href="http://dev.mysql.com/downloads/mysql/5.6.html" target="_blank">http://dev.mysql.com/downloads/mysql/5.6.html</a>
+<a href="http://packages.ubuntu.com/quantal/multiarch-support" target="_blank">http://packages.ubuntu.com/quantal/multiarch-support</a></p>
+<p>b. Copy it in a empty folder.</p>
+<p>c. Go to to the empty folder path through terminal and type </p>
+<p><em><b>Sudo dpkg -i </em>.deb</b>*</p>
+</li>
+<li><p><strong>Using Ubuntu software Center:</strong></p>
+<p>a. Right click the deb package and click open through ubuntu software centre.</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li><p><strong>To get Mysql Prompt in Terminal</strong></p>
+<pre><code> Type the following command to get MySQL prompt :
+
+     mysql -u root -p
+
+     Enter the Mysql password 
+
+     root123
+
+     NOTE: mysql refers to command
+
+     -u root -p refers to user root password
+
+         &gt;&gt;login to MySQL as root user(u) with mysql password(p).
+</code></pre></li>
+</ol>
+<ol>
+<li><p><strong>Creation of Database and query execution.</strong></p>
+<ol>
+<li><p>You will get the MySQL prompt as shown below:</p>
+<p> <img src="DBScreenShots/1.png" alt="Alt text"> </p>
+</li>
+<li><p>Database Object Creation:</p>
+<ul>
+<li><p>To create Database </p>
+<p>  Create Database Student;</p>
+</li>
+<li><p>To Use Database</p>
+<p>  use Student;</p>
+</li>
+<li><p>To view the databases</p>
+<p>  show databases;</p>
+<p><img src="DBScreenShots/2.png" alt="Alt text"> </p>
+</li>
+</ul>
+</li>
+<li><p>Table Creation: </p>
+<pre><code> create table student(snum int(4) primary key,sname varchar(10),major varchar(10),lev varchar(2),age int(2)); 
+
+ create table faculty(fid int(4) primary key,fname varchar(10), deptid int(2)); 
+
+ create table class(cname varchar(10) primary key,meetat varchar(10),room varchar(4), fid int(4) references faculty(fid)); 
+
+ create table enrolled(snum int(4) references student(snum),cname varchar(10) references class(cname)); 
+</code></pre><p> <img src="DBScreenShots/3.png" alt="Alt text"> </p>
+</li>
+</ol>
+</li>
+</ol>
+<pre><code>4. Inserting values into Table:
+
+        insert into student values(121,&#39;Agrawal&#39;,&#39;CSE&#39;,&#39;SR&#39;,21);
+
+        insert into student values(119, &#39;Tony &#39;, &#39;CSE&#39;, &#39;SR&#39;,21);
+
+        insert into student values(122, &#39; Krishna &#39;, &#39;CSE&#39;, &#39;JR&#39;,20);
+
+    ![Alt text](DBScreenShots/4.png) 
+
+
+5. to execute Query;
+
+        To find the author1 of the book which has maximum sales:
+
+        select author1_name from author1 a,catalogue1 c where a.author1_id=c.author1_id and book_id in (select book_id from orderdetails1 where quantity= (select max(quantity) from orderdetails1));
+
+    ![Alt text](DBScreenShots/5.png) 
+
+
+6. To get the tables information use DESC command.
+
+    ![Alt text](DBScreenShots/6.png) 
+
+7. Contents of the table can be viewed by using the command SELECT as follows:
+
+    ![Alt text](DBScreenShots/7.png) 
+
+8. In between if user wants to clear the screen of the terminal then press:
+</code></pre><p>ctrl+l.</p>
+<pre><code>9. To get any information about the commands used in the mysql use &quot;help&quot; command.
+    Eg: help insert;
+    help create;
+10. Type exit to exit from the MySQL prompt.
+
+    Note 1 : MYSQL is a a case sensitive.
+        Ex: &quot;desc MEMBERS&quot; is differ from &quot;desc members&quot;.
+
+    ![Alt text](DBScreenShots/8.png) 
+
+    Note 2:
+</code></pre><p><TABLE border="1" width="75%" align="center">
+    <TR>
+        <TH COLSPAN=2>Handy MySQL Commands</TH>
+    </TR>
+    <TR>
+        <TD>Description
+        </TD>
+        <TD>Command
+        </TD>
+    </TR>
+    <TR>
+        <TD>To login (from unix shell) use -h only if needed.
+        </TD>
+        <TD>[mysql dir]/bin/mysql -h hostname -u root -p</TD>
+    </TR>
+    <TR>
+        <TD>Create a database on the sql server.
+        </TD>
+        <TD>create database [databasename];
+        </TD>
+    </TR>
+    <TR>
+        <TD>List all databases on the sql server.
+        </TD>
+        <TD>show databases;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Switch to a database.
+        </TD>
+        <TD>use [db name];use [db name];use [db name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>To see all the tables in
+            the db.
+        </TD>
+        <TD>show tables;
+        </TD>
+    </TR>
+    <TR>
+        <TD>To see database&#39;s field
+            formats.
+        </TD>
+        <TD>describe [tadescribe [table name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>To delete a db.
+        </TD>
+        <TD>drop database [database
+            name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>To delete a table.
+        </TD>
+        <TD>drop table [table name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show all data in a table.
+        </TD>
+        <TD>SELECT <em> FROM [table
+            name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>Returns the columns and
+            column information pertaining to the designated table.
+        </TD>
+        <TD>show columns from [table
+            name]; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show certain selected rows
+            with the value &quot;whatever&quot;.
+        </TD>
+        <TD>SELECT </em> FROM [table name]
+            WHERE [field name] = &quot;whatever&quot;;<br>            </TD>
+    </TR>
+    <TR>
+        <TD>Show all records
+            containing the name &quot;Bob&quot; AND the phone number
+            &#39;3444444&#39;.
+        </TD>
+        <TD>SELECT <em> FROM [table name]
+            WHERE name = &quot;Bob&quot; AND phone<em>number = &#39;3444444&#39;; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show all records not
+            containing the name &quot;Bob&quot; AND the phone number &#39;3444444&#39;
+            order by the phone</em>number field.
+        </TD>
+        <TD>SELECT </em> FROM [table name]
+            WHERE name != &quot;Bob&quot; AND phone<em>number = &#39;3444444&#39; order
+            by phone</em>number; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show all records starting
+            with the letters &#39;bob&#39; AND the phone number &#39;3444444&#39;.
+        </TD>
+        <TD>SELECT <em> FROM [table name]
+            WHERE name like &quot;Bob%&quot; AND phone<em>number = &#39;3444444&#39;; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Use a regular expression
+            to find records. Use &quot;REGEXP BINARY&quot; to force
+            case-sensitivity. This finds any record beginning with a. 
+        </TD>
+        <TD>SELECT </em> FROM [table name]
+            WHERE rec RLIKE &quot;^a$&quot;; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show unique records.
+        </TD>
+        <TD>SELECT DISTINCT [column
+            name] FROM [table name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>Show selected records
+            sorted in an ascending (asc) or descending (desc).
+        </TD>
+        <TD>SELECT [col1],[col2] FROM
+            [table name] ORDER BY [col2] DESC;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Count rows.
+        </TD>
+        <TD>SELECT COUNT(*) FROM
+            [table name]; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Join tables on common
+            columns.
+        </TD>
+        <TD>select
+            lookup.illustrationid, lookup.personid,person.birthday from
+            lookup<BR>left join person on
+            lookup.personid=person.personid=statement to join birthday in
+            person table with primary illustration id;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Switch to the mysql db.
+            Create a new user. 
+        </TD>
+        <TD>INSERT INTO [table name]
+            (Host,User,Password) VALUES(&#39;%&#39;,&#39;user&#39;,PASSWORD(&#39;password&#39;));
+        </TD>
+    </TR>
+    <TR>
+        <TD>Change a users
+            password.(from unix shell).
+        </TD>
+        <TD>[mysql dir]/bin/mysqladmin
+            -u root -h hostname.blah.org -p password &#39;new-password&#39;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Change a users
+            password.(from MySQL prompt).
+        </TD>
+        <TD>SET PASSWORD FOR
+            &#39;user&#39;@&#39;hostname&#39; = PASSWORD(&#39;passwordhere&#39;);
+        </TD>
+    </TR>
+    <TR>
+        <TD>Switch to mysql db.Give
+            user privilages for a db.
+        </TD>
+        <TD>INSERT INTO [table name]
+            (Host,Db,User,Select</em>priv,Insert<em>priv,Update</em>priv,Delete<em>priv,Create</em>priv,Drop<em>priv)
+            VALUES (&#39;%&#39;,&#39;db&#39;,&#39;user&#39;,&#39;Y&#39;,&#39;Y&#39;,&#39;Y&#39;,&#39;Y&#39;,&#39;Y&#39;,&#39;N&#39;);
+        </TD>
+    </TR>
+    <TR>
+        <TD>To update info already in
+            a table.
+        </TD>
+        <TD>UPDATE [table name] SET
+            Select</em>priv = &#39;Y&#39;,Insert<em>priv = &#39;Y&#39;,Update</em>priv = &#39;Y&#39; where [field
+            name] = &#39;user&#39;;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Delete a row(s) from a
+            table.
+        </TD>
+        <TD>DELETE from [table name]
+            where [field name] = &#39;whatever&#39;;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Update database
+            permissions/privilages.
+        </TD>
+        <TD>FLUSH PRIVILEGES;
+        </TD>
+    </TR>
+    <TR>
+        <TD>Delete a column.
+        </TD>
+        <TD>alter table [table name]
+            drop column [column name];
+        </TD>
+    </TR>
+    <TR>
+        <TD>Add a new column to db.
+        </TD>
+        <TD>alter table [table name]
+            add column [new column name] varchar (20);      </TD>
+    </TR>
+    <TR>
+        <TD>Change column name. 
+        </TD>
+        <TD>alter table [table name]
+            change [old column name] [new column name] varchar (50); 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Make a unique column so
+            you get no dupes. 
+        </TD>
+        <TD>alter table [table name]
+            add unique ([column name]); 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Make a column bigger. 
+        </TD>
+        <TD>alter table [table name]
+            modify [column name] VARCHAR(3); 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Delete unique from table. 
+        </TD>
+        <TD>alter table [table name]
+            drop index [colmn name]; 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Load a CSV file into a
+            table. 
+        </TD>
+        <TD>LOAD DATA INFILE
+            &#39;/tmp/filename.csv&#39; replace INTO TABLE [table name] FIELDS
+            TERMINATED BY &#39;,&#39; LINES TERMINATED BY &#39;\n&#39; (field1,field2,field3); </TD>
+    </TR>
+    <TR>
+        <TD>Dump all databases for
+            backup. Backup file is sql commands to recreate all db&#39;s. 
+        </TD>
+        <TD>[mysql dir]/bin/mysqldump
+            -u root -ppassword --opt &gt;/tmp/alldatabases.sql 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Dump one database for
+            backup. 
+        </TD>
+        <TD>[mysql dir]/bin/mysqldump
+            -u username -ppassword --databases databasename
+            &gt;/tmp/databasename.sql 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Dump a table from a
+            database. 
+        </TD>
+        <TD>[mysql dir]/bin/mysqldump
+            -c -u username -ppassword databasename tablename &gt;
+            /tmp/databasename.tablename.sql 
+        </TD>
+    </TR>
+    <TR>
+        <TD>Restore database (or
+            database table) from backup. 
+        </TD>
+        <TD>[mysql dir]/bin/mysql -u
+            username -ppassword databasename &lt; /tmp/databasename.sql <br />
+        </TD>
+    </TR>
+    <TR>
+        <TD>Create Table Example 1. 
+        </TD>
+        <TD>CREATE TABLE [table name]
+            (firstname VARCHAR(20), middleinitial VARCHAR(3), lastname
+            VARCHAR(35),suffix VARCHAR(3),<BR>officeid VARCHAR(10),userid
+            VARCHAR(15),username VARCHAR(8),email VARCHAR(35),phone
+            VARCHAR(25), groups <BR>VARCHAR(15),datestamp DATE,timestamp
+            time,pgpemail VARCHAR(255)); 
+        </TD>
+    </TR>
+    <TR>
+          <TD>Create Table Example 2. 
+        </TD>
+        <TD>create table [table name]
+            (personid int(50) not null auto_increment primary key,firstname
+            varchar(35),middlename varchar(50),lastname varchar(50) default
+            &#39;bato&#39;); <br />
+        </TD>
+    </TR>
+</TABLE></p>
+
+
+
+
+<h3 id="advantages-of-mysql-">Advantages of MySQL:</h3>
+<ol>
+<li>MySQL is the widely used open source database. MySQL is the backend database of most of the websites. </li>
+<li>As a Free Software(Free as in freedom), MySQL can be downloaded and used by the developer for free. </li>
+<li>MySQL is robust and it provides excellent performance due to usage of MyISAM. </li>
+<li>MySQL occupies very less disk space. </li>
+<li>MySQL can be easily installed in all major operating systems like Microsoft Windows, Linux, UNIX. </li>
+<li>MySQL can be easily learnt using the tutorials that are available on internet. We would recommend users to go through the Spoken Tutorial videos given below to get more information on MySQL.</li>
+<li>MySQL is best suited for small and medium applications. </li>
+</ol>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><p>Please go through the video tutorials on MySQL developed and released by <strong>Spoken Tutorial Project</strong>, an initiative of National Mission on Education through ICT, Government of India, to promote IT literacy through Open Source Software. Students can go through these video tutorials to get better understanding of the subject. The tutorials for MySQL can be downloaded from <a href="http://files.spoken-tutorial.org/disc-source/php-mysql-english-hindi.zip" target="_blank">here</a>. More info about the project can be found <a href="http://spoken-tutorial.org/" target="_blank">here</a>.</p>
+</li>
+<li><p>The MySQL Handbook is also available in the mysql-doc-5.0 package. To install the package enter the following in a terminal: 
+  <em><b>sudo apt-get install mysql-doc-5.0</b></em></p>
+</li>
+<li>The documentation is in HTML format, to view them enter file:///usr/share/doc/mysql-doc-5.0/refman-5.0-en.html-chapter/index.html in your browser&#39;s address bar. </li>
+</ul>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../About.html" class="navigation navigation-prev " aria-label="Previous page: About"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../SYLLABUS.html" class="navigation navigation-next " aria-label="Next page: Syllabus"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

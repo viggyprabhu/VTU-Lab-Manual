@@ -1,0 +1,656 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Problem 4: Book dealer | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <meta name="author" content="fsmk">
+    
+    
+    <link rel="next" href="../05_BankingEnterprise/05_BankingEnterprise.html" />
+    
+    
+    <link rel="prev" href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-github="fsmk/CS-VTU-Lab-Manual" data-level="10" data-basepath=".." data-revision="1404290030481">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="https://github.com/fsmk" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/issues" target="blank"class="issues-link">Questions and Issues</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/edit/master/04_BookDealer/04_BookDealer.md" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="Content.html">
+            
+            <a href="../Content.html">
+                <i class="fa fa-check"></i> <b>1.</b> Content
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="Foreword.html">
+            
+            <a href="../Foreword.html">
+                <i class="fa fa-check"></i> <b>2.</b> Foreword
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Contributors.html">
+            
+            <a href="../Contributors.html">
+                <i class="fa fa-check"></i> <b>3.</b> Contributors
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="About.html">
+            
+            <a href="../About.html">
+                <i class="fa fa-check"></i> <b>4.</b> About
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+            
+            <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+                <i class="fa fa-check"></i> <b>5.</b> Introduction to MySQL
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="SYLLABUS.html">
+            
+            <a href="../SYLLABUS.html">
+                <i class="fa fa-check"></i> <b>6.</b> Syllabus
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="01_StudentClass/01_StudentClass.html">
+            
+            <a href="../01_StudentClass/01_StudentClass.html">
+                <i class="fa fa-check"></i> <b>7.</b> Problem 1: Student Class
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="02_AirlineFlight/02_AirlineFlight.html">
+            
+            <a href="../02_AirlineFlight/02_AirlineFlight.html">
+                <i class="fa fa-check"></i> <b>8.</b> Problem 2: Airline Flight
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+            
+            <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+                <i class="fa fa-check"></i> <b>9.</b> Problem 3: Student Course Books
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="04_BookDealer/04_BookDealer.html">
+            
+            <a href="../04_BookDealer/04_BookDealer.html">
+                <i class="fa fa-check"></i> <b>10.</b> Problem 4: Book dealer
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="05_BankingEnterprise/05_BankingEnterprise.html">
+            
+            <a href="../05_BankingEnterprise/05_BankingEnterprise.html">
+                <i class="fa fa-check"></i> <b>11.</b> Problem 5: Banking Enterprise
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 90.9090909090909%;min-width: 81.81818181818181%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../Content.html" title="Content" class="chapter done new-chapter" data-progress="1" style="left: 9.090909090909092%;"></a>
+    
+        <a href="../Foreword.html" title="Foreword" class="chapter done new-chapter" data-progress="2" style="left: 18.181818181818183%;"></a>
+    
+        <a href="../Contributors.html" title="Contributors" class="chapter done new-chapter" data-progress="3" style="left: 27.272727272727273%;"></a>
+    
+        <a href="../About.html" title="About" class="chapter done new-chapter" data-progress="4" style="left: 36.36363636363637%;"></a>
+    
+        <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html" title="Introduction to MySQL" class="chapter done new-chapter" data-progress="5" style="left: 45.45454545454545%;"></a>
+    
+        <a href="../SYLLABUS.html" title="Syllabus" class="chapter done new-chapter" data-progress="6" style="left: 54.54545454545455%;"></a>
+    
+        <a href="../01_StudentClass/01_StudentClass.html" title="Problem 1: Student Class" class="chapter done new-chapter" data-progress="7" style="left: 63.63636363636363%;"></a>
+    
+        <a href="../02_AirlineFlight/02_AirlineFlight.html" title="Problem 2: Airline Flight" class="chapter done new-chapter" data-progress="8" style="left: 72.72727272727273%;"></a>
+    
+        <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" title="Problem 3: Student Course Books" class="chapter done new-chapter" data-progress="9" style="left: 81.81818181818181%;"></a>
+    
+        <a href="../04_BookDealer/04_BookDealer.html" title="Problem 4: Book dealer" class="chapter done " data-progress="10" style="left: 90.9090909090909%;"></a>
+    
+        <a href="../05_BankingEnterprise/05_BankingEnterprise.html" title="Problem 5: Banking Enterprise" class="chapter  " data-progress="11" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_10">
+                    
+                        <h2 id="program-4">PROGRAM 4</h2>
+<h3 id="description-">DESCRIPTION:</h3>
+<p>The following tables are maintained by a book dealer.</p>
+<ul>
+<li>AUTHOR (author-id:int, name:string, city:string, country:string)</li>
+<li>PUBLISHER (publisher-id:int, name:string, city:string, country:string)</li>
+<li>CATALOG (book-id:int, title:string, author-id:int, publisher-id:int,</li>
+<li>Category-id:int, year:int, price:int)</li>
+<li>CATEGORY (category-id:int, description:string)</li>
+<li>ORDER-DETAILS (order-no:int, book-id:int, quantity:int)</li>
+</ul>
+<h3 id="queries-">Queries:</h3>
+<p>Write each of the following queries in SQL.</p>
+<ol>
+<li>Create the above tables by properly specifying the primary keys and the foreign keys.</li>
+<li>Enter at least five tuples for each relation.</li>
+</ol>
+<h3 id="create-">Create:</h3>
+<pre>mysql> create database book_dealer;
+Query OK, 1 row affected (0.00 sec)</pre>
+
+<pre>mysql> use book_dealer;
+Database changed
+mysql> create table author1 (
+      author1_id int,
+      author1_name varchar(20),
+      author1_city varchar(20),
+      author1_country varchar(20),
+      primary key(author1_id));
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> desc author1;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| author1_id      | int(11)     | NO   | PRI | 0       |       |
+| author1_name    | varchar(20) | YES  |     | NULL    |       |
+| author1_city    | varchar(20) | YES  |     | NULL    |       |
+| author1_country | varchar(20) | YES  |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> create table publisher1 (
+      publisher1_id int,
+      publisher1_name varchar(20),
+      publisher1_city varchar(20),
+      publisher1_country varchar(20),
+      primary key(publisher1_id));
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> desc publisher1;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| publisher1_id      | int(11)     | NO   | PRI | 0       |       |
+| publisher1_name    | varchar(20) | YES  |     | NULL    |       |
+| publisher1_city    | varchar(20) | YES  |     | NULL    |       |
+| publisher1_country | varchar(20) | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> create table category1 (
+      category_id int,
+      description varchar(30),
+      primary key(category_id) );
+Query OK, 0 rows affected (0.14 sec)
+
+mysql> desc category1;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| category_id | int(11)     | NO   | PRI | 0       |       |
+| description | varchar(30) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> create table catalogue1(
+      book_id int,
+      book_title varchar(30),
+      author1_id int,
+      publisher1_id int,
+      category_id int,
+      year int,
+      price int,
+      primary key(book_id),
+      foreign key(author1_id) references author1(author1_id),
+      foreign key(publisher1_id) references publisher1(publisher1_id),
+      foreign key(category_id) references category1(category_id) );
+Query OK, 0 rows affected (0.47 sec)
+
+mysql> desc catalogue1;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| book_id       | int(11)     | NO   | PRI | 0       |       |
+| book_title    | varchar(30) | YES  |     | NULL    |       |
+| author1_id    | int(11)     | YES  | MUL | NULL    |       |
+| publisher1_id | int(11)     | YES  | MUL | NULL    |       |
+| category_id   | int(11)     | YES  | MUL | NULL    |       |
+| year          | int(11)     | YES  |     | NULL    |       |
+| price         | int(11)     | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> create table orderdetails1(
+      order_id int,
+      book_id int,
+      quantity int,
+      primary key(order_id),
+      foreign key(book_id) references catalogue1(book_id));
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> desc orderdetails1;
++----------+---------+------+-----+---------+-------+
+| Field    | Type    | Null | Key | Default | Extra |
++----------+---------+------+-----+---------+-------+
+| order_id | int(11) | NO   | PRI | 0       |       |
+| book_id  | int(11) | YES  | MUL | NULL    |       |
+| quantity | int(11) | YES  |     | NULL    |       |
++----------+---------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+</pre>
+
+<h3 id="insertions-">INSERTIONS:</h3>
+<pre>
+mysql> insert into author1 values
+          (1001,'JK Rowling','London','England'),
+          (1002,'Chetan Bhagat','Mumbai','India'),
+          (1003,'John McCarthy','Chicago','USA'),
+          (1004,'Dan Brown','California','USA') ;
+
+Query OK, 4 rows affected (0.08 sec)
+Records: 4  Duplicates: 0  Warnings: 0</pre>
+<pre>
+mysql> select * from author1;
++------------+---------------+--------------+-----------------+
+| author1_id | author1_name  | author1_city | author1_country |
++------------+---------------+--------------+-----------------+
+|       1001 | JK Rowling    | London       | England         |
+|       1002 | Chetan Bhagat | Mumbai       | India           |
+|       1003 | John McCarthy | Chicago      | USA             |
+|       1004 | Dan Brown     | California   | USA             |
++------------+---------------+--------------+-----------------+
+4 rows in set (0.01 sec)</pre>
+
+<pre>
+mysql> insert into publisher1 values
+          (2001,'Bloomsbury','London','England'),
+          (2002,'Scholastic','Washington','USA'),
+          (2003,'Pearson','London','England'),
+          (2004,'Rupa','Delhi','India') ;
+Query OK, 4 rows affected (0.06 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql> select * from publisher1;
++---------------+-----------------+-----------------+--------------------+
+| publisher1_id | publisher1_name | publisher1_city | publisher1_country |
++---------------+-----------------+-----------------+--------------------+
+|          2001 | Bloomsbury      | London          | England            |
+|          2002 | Scholastic      | Washington      | USA                |
+|          2003 | Pearson         | London          | England            |
+|          2004 | Rupa            | Delhi           | India              |
++---------------+-----------------+-----------------+--------------------+
+4 rows in set (0.00 sec)</pre>
+
+<pre>mysql> insert into category1 values
+          (3001,'Fiction'),
+          (3002,'Non-Fiction'),
+          (3003,'thriller'),
+          (3004,'action'),
+          (3005,'fiction') ;
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> select * from category1;
++-------------+-------------+
+| category_id | description |
++-------------+-------------+
+|        3001 | Fiction     |
+|        3002 | Non-Fiction |
+|        3003 | thriller    |
+|        3004 | action      |
+|        3005 | fiction     |
++-------------+-------------+
+5 rows in set (0.00 sec)</pre>
+
+<pre>mysql> insert into catalogue1 values
+          (4001,'HP and Goblet Of Fire',1001,2001,3001,2002,600),
+          (4002,'HP and Order Of Phoenix',1001,2002,3001,2005,650),
+          (4003,'Two States',1002,2004,3001,2009,65),
+          (4004,'3 Mistakes of my life',1002,2004,3001,2007,55),
+          (4005,'Da Vinci Code',1004,2003,3001,2004,450),
+          (4006,'Angels and Demons',1004,2003,3001,2003,350),
+          (4007,'Artificial Intelligence',1003,2002,3002,1970,500) ;
+Query OK, 7 rows affected (0.36 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+
+mysql> select * from catalogue1;
++---------+-------------------------+------------+---------------+-------------+------+-------+
+| book_id | book_title              | author1_id | publisher1_id | category_id | year | price |
++---------+-------------------------+------------+---------------+-------------+------+-------+
+|    4001 | HP and Goblet Of Fire   |       1001 |          2001 |        3001 | 2002 |   600 |
+|    4002 | HP and Order Of Phoenix |       1001 |          2002 |        3001 | 2005 |   650 |
+|    4003 | Two States              |       1002 |          2004 |        3001 | 2009 |    65 |
+|    4004 | 3 Mistakes of my life   |       1002 |          2004 |        3001 | 2007 |    55 |
+|    4005 | Da Vinci Code           |       1004 |          2003 |        3001 | 2004 |   450 |
+|    4006 | Angels and Demons       |       1004 |          2003 |        3001 | 2003 |   350 |
+|    4007 | Artificial Intelligence |       1003 |          2002 |        3002 | 1970 |   500 |
++---------+-------------------------+------------+---------------+-------------+------+-------+
+7 rows in set (0.00 sec)</pre>
+
+<pre>
+mysql> insert into orderdetails1 values
+          (5001,4001,5),
+          (5002,4002,7),
+          (5003,4003,15),
+          (5004,4004,11),
+          (5005,4005,9),
+          (5006,4006,8),
+          (5007,4007,2),
+          (5008,4004,3) ;
+Query OK, 8 rows affected (0.47 sec)
+Records: 8  Duplicates: 0  Warnings: 0
+
+mysql> select * from orderdetails1;
++----------+---------+----------+
+| order_id | book_id | quantity |
++----------+---------+----------+
+|     5001 |    4001 |        5 |
+|     5002 |    4002 |        7 |
+|     5003 |    4003 |       15 |
+|     5004 |    4004 |       11 |
+|     5005 |    4005 |        9 |
+|     5006 |    4006 |        8 |
+|     5007 |    4007 |        2 |
+|     5008 |    4004 |        3 |
++----------+---------+----------+
+8 rows in set (0.00 sec)</pre>
+
+<h3 id="queries-">QUERIES:</h3>
+<h3 id="3-give-the-details-of-the-authors-who-have-2-or-more-books-in-the-catalog-and-the-price-of-the-books-is-greater-than-the-average-price-of-the-books-in-the-catalog-and-the-year-of-publication-is-after-2000">3: Give the details of the authors who have 2 or more books in the catalog and the price of the books is greater than the  average price of the books in the catalog and the year of  publication is after 2000</h3>
+<pre>mysql> select * from author1
+          where author1_id in
+          (select author1_id from catalogue1 where
+          year>2000 and price>
+          (select avg(price) from catalogue1)
+          group by author1_id having count(*)>1);
+
+OR
+
+mysql> select * from author1
+               where author1_id in
+               (select author1_id from catalogue1 where
+               year>2000 and price>
+               (select avg(price) from catalogue1)
+               group by author1_id having count(*)>1);
+
+Description:
+(select avg(price) from catalogue1):-it select the average price of the books from catalogue1. it acts as an input to the outer query which selects the author id from catalogue1 which are published after 2000 and the price of books is greater than the average price of the books.this acts as an input to the outer most query which displays the author1 details of the values which satisfy the inner queries.
++------------+--------------+--------------+-----------------+
+| author1_id | author1_name | author1_city | author1_country |
++------------+--------------+--------------+-----------------+
+|       1001 | JK Rowling   | London       | England         |
++------------+--------------+--------------+-----------------+
+1 row in set (0.00 sec))</pre>
+
+<h3 id="4-find-the-author1-of-the-book-which-has-maximum-sales-">4: Find the author1 of the book which has maximum sales.</h3>
+<pre>mysql> select c.eid,max(cruisingrange)
+     from certified c,aircraft a
+     where c.aid=a.aid
+     group by c.eid
+     having count(*)>3;
++-----+--------------------+
+| eid | max(cruisingrange) |
++-----+--------------------+
+|   1 |               8000 |
++-----+----------------
+mysql> select author1_name
+           from author1 a,catalogue1 c
+           where a.author1_id=c.author1_id
+           and book_id in
+           (select book_id from orderdetails1
+           where quantity= (select max(quantity)
+           from orderdetails1));
+
+OR
+
+mysql> SELECT a.author1_name FROM author1 a,catalogue1 c
+     WHERE a.author1_id=c.author1_id AND
+     c.book_id IN (SELECT book_id
+     FROM orderdetails1
+     GROUP BY book_id HAVING
+     SUM(quantity)>=ALL(SELECT SUM(quantity)
+     FROM orderdetails1 GROUP BY book_id));
+
+Description:
+(select max(quantity) from orderdetails1):-it selects the maximum quantity of books from the orderdetails1 which acts as the input to its outer query which selects the book_id from the orderdetails where the quantity is equal to the selected maximum quantity. This acts as the input to the outer most query which displays the author name where the book id satisfies the inner query.
++---------------+
+| author1_name  |
++---------------+
+| Chetan Bhagat |
++---------------+
+1 row in set (0.00 sec)----+
+1 row in set (0.00 sec)</pre>
+
+<h3 id="5-demonstrate-how-you-increase-the-price-of-books-published-by-a-specific-publisher1-by-10-">5: Demonstrate how you increase the price of books published by a specific publisher1  by 10%.</h3>
+<pre>mysql> update catalogue1 set price=1.1*price
+          where publisher1_id in
+          (select publisher1_id from publisher1 where
+         publisher1_name='pearson');
+Query OK, 2 rows affected (0.41 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+Description:
+This query is used to update the price of the books by 10% which are published by a specific author. Here we have considered pearson as the author.
+
+mysql> select * from catalogue1;
++---------+-------------------------+------------+---------------+-------------+------+-------+
+| book_id | book_title              | author1_id | publisher1_id | category_id | year | price |
++---------+-------------------------+------------+---------------+-------------+------+-------+
+|    4001 | HP and Goblet Of Fire   |       1001 |          2001 |        3001 | 2002 |   600 |
+|    4002 | HP and Order Of Phoenix |       1001 |          2002 |        3001 | 2005 |   650 |
+|    4003 | Two States              |       1002 |          2004 |        3001 | 2009 |    65 |
+|    4004 | 3 Mistakes of my life   |       1002 |          2004 |        3001 | 2007 |    55 |
+|    4005 | Da Vinci Code           |       1004 |          2003 |        3001 | 2004 |   495 |
+|    4006 | Angels and Demons       |       1004 |          2003 |        3001 | 2003 |   385 |
+|    4007 | Artificial Intelligence |       1003 |          2002 |        3002 | 1970 |   500 |
++---------+-------------------------+------------+---------------+-------------+------+-------+
+7 rows in set (0.00 sec)
+
+</pre>
+
+
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" class="navigation navigation-prev " aria-label="Previous page: Problem 3: Student Course Books"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../05_BankingEnterprise/05_BankingEnterprise.html" class="navigation navigation-next " aria-label="Next page: Problem 5: Banking Enterprise"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

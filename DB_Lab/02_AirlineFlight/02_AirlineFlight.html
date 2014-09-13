@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Problem 2: Airline Flight | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <meta name="author" content="fsmk">
+    
+    
+    <link rel="next" href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" />
+    
+    
+    <link rel="prev" href="../01_StudentClass/01_StudentClass.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-github="fsmk/CS-VTU-Lab-Manual" data-level="8" data-basepath=".." data-revision="1404290030481">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="https://github.com/fsmk" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/issues" target="blank"class="issues-link">Questions and Issues</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fsmk/CS-VTU-Lab-Manual/edit/master/02_AirlineFlight/02_AirlineFlight.md" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="Content.html">
+            
+            <a href="../Content.html">
+                <i class="fa fa-check"></i> <b>1.</b> Content
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="Foreword.html">
+            
+            <a href="../Foreword.html">
+                <i class="fa fa-check"></i> <b>2.</b> Foreword
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Contributors.html">
+            
+            <a href="../Contributors.html">
+                <i class="fa fa-check"></i> <b>3.</b> Contributors
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="About.html">
+            
+            <a href="../About.html">
+                <i class="fa fa-check"></i> <b>4.</b> About
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+            
+            <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html">
+                <i class="fa fa-check"></i> <b>5.</b> Introduction to MySQL
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="SYLLABUS.html">
+            
+            <a href="../SYLLABUS.html">
+                <i class="fa fa-check"></i> <b>6.</b> Syllabus
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="01_StudentClass/01_StudentClass.html">
+            
+            <a href="../01_StudentClass/01_StudentClass.html">
+                <i class="fa fa-check"></i> <b>7.</b> Problem 1: Student Class
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="02_AirlineFlight/02_AirlineFlight.html">
+            
+            <a href="../02_AirlineFlight/02_AirlineFlight.html">
+                <i class="fa fa-check"></i> <b>8.</b> Problem 2: Airline Flight
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+            
+            <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html">
+                <i class="fa fa-check"></i> <b>9.</b> Problem 3: Student Course Books
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="04_BookDealer/04_BookDealer.html">
+            
+            <a href="../04_BookDealer/04_BookDealer.html">
+                <i class="fa fa-check"></i> <b>10.</b> Problem 4: Book dealer
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="05_BankingEnterprise/05_BankingEnterprise.html">
+            
+            <a href="../05_BankingEnterprise/05_BankingEnterprise.html">
+                <i class="fa fa-check"></i> <b>11.</b> Problem 5: Banking Enterprise
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 72.72727272727273%;min-width: 63.63636363636363%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../Content.html" title="Content" class="chapter done new-chapter" data-progress="1" style="left: 9.090909090909092%;"></a>
+    
+        <a href="../Foreword.html" title="Foreword" class="chapter done new-chapter" data-progress="2" style="left: 18.181818181818183%;"></a>
+    
+        <a href="../Contributors.html" title="Contributors" class="chapter done new-chapter" data-progress="3" style="left: 27.272727272727273%;"></a>
+    
+        <a href="../About.html" title="About" class="chapter done new-chapter" data-progress="4" style="left: 36.36363636363637%;"></a>
+    
+        <a href="../00_Introduction_to_MySQL/Introduction_to_MySQL.html" title="Introduction to MySQL" class="chapter done new-chapter" data-progress="5" style="left: 45.45454545454545%;"></a>
+    
+        <a href="../SYLLABUS.html" title="Syllabus" class="chapter done new-chapter" data-progress="6" style="left: 54.54545454545455%;"></a>
+    
+        <a href="../01_StudentClass/01_StudentClass.html" title="Problem 1: Student Class" class="chapter done new-chapter" data-progress="7" style="left: 63.63636363636363%;"></a>
+    
+        <a href="../02_AirlineFlight/02_AirlineFlight.html" title="Problem 2: Airline Flight" class="chapter done new-chapter" data-progress="8" style="left: 72.72727272727273%;"></a>
+    
+        <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" title="Problem 3: Student Course Books" class="chapter  new-chapter" data-progress="9" style="left: 81.81818181818181%;"></a>
+    
+        <a href="../04_BookDealer/04_BookDealer.html" title="Problem 4: Book dealer" class="chapter  " data-progress="10" style="left: 90.9090909090909%;"></a>
+    
+        <a href="../05_BankingEnterprise/05_BankingEnterprise.html" title="Problem 5: Banking Enterprise" class="chapter  " data-progress="11" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_8">
+                    
+                        <h2 id="program-2">PROGRAM 2</h2>
+<h3 id="description-">DESCRIPTION:</h3>
+<p>The following relations keep track of airline flight information:</p>
+<ul>
+<li>FLIGHTS (no:integer,from:string,to:string,distance:integer,departs:time,arrives:time,price:real)</li>
+<li>AIRCRAFT (aid:integer,aname:string,cruisingrange:integer)</li>
+<li>CERTIFIED (eid:integer,aid:integer)</li>
+<li>EMPLOYEES (eid:integer,ename:string,salary:integer)</li>
+</ul>
+<p>NOTE that the EMPLOYEES relation describes pilots and other kinds of employees as well;Every pilot is certified for some aircraft,and only pilots are certified to fly.</p>
+<h3 id="queries-">Queries:</h3>
+<pre>Write each of the following queries in SQL.
+
+1. Find the names of aircraft such that all pilots certified to operate them have salaries more than Rs 80,000.
+2. For each pilot who is certified for more than three aircrafts,find the eid and the maximum cruisingrange of the aircraft for which he/she is certified.
+3. Find the names of all pilots whose salary is less than the price of the cheapest route from Bangalore to Frankfurt.
+4. For all aircrafts with cruisingrange over 1000 kms,find the name of the aircraft and the average salary of all pilots certified for this aircraft.
+5. Find the names of pilots certified for some Boeing aircraft.
+6. Find the aid's of all aircraft that can be used on routes from Bangalore to Delhi.
+</pre>
+
+<h3 id="create-">Create:</h3>
+<pre>
+mysql> create database flights;
+Query OK, 1 row affected (0.00 sec)
+</pre>
+<pre>
+mysql> use flights;
+Database changed
+mysql> create table flight(
+    -> no int,
+    -> frm varchar(20),
+    -> too varchar(20),
+    -> distance int,
+    -> departs varchar(20),
+    -> arrives varchar(20),
+    -> price real,
+    -> primary key (no) );
+Query OK, 0 rows affected (0.17 sec)</pre>
+<pre>
+mysql> desc flight;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| no       | int(11)     | NO   | PRI | 0       |       |
+| frm      | varchar(20) | YES  |     | NULL    |       |
+| too      | varchar(20) | YES  |     | NULL    |       |
+| distance | int(11)     | YES  |     | NULL    |       |
+| departs  | varchar(20) | YES  |     | NULL    |       |
+| arrives  | varchar(20) | YES  |     | NULL    |       |
+| price    | double      | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+</pre>
+<pre>
+mysql> create table aircraft(
+    -> aid int,
+    -> aname varchar(20),
+    -> cruisingrange int,
+    -> primary key (aid) );
+Query OK, 0 rows affected (0.19 sec)
+</pre>
+<pre>
+mysql> desc aircraft;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| aid           | int(11)     | NO   | PRI | 0       |       |
+| aname         | varchar(20) | YES  |     | NULL    |       |
+| cruisingrange | int(11)     | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+</pre>
+<pre>
+mysql> create table employees(
+    -> eid int,
+    -> ename varchar(20),
+    -> salary int,
+    -> primary key (eid) );
+Query OK, 0 rows affected (0.29 sec)
+</pre>
+<pre>
+mysql> desc employees;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | 0       |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| salary | int(11)     | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+</pre>
+<pre>
+mysql> create table certified(
+    -> eid int,
+    -> aid int,
+    -> primary key (eid,aid),
+    -> foreign key (eid) references employees (eid),
+    -> foreign key (aid) references aircraft (aid) );
+Query OK, 0 rows affected (0.43 sec)
+</pre>
+<pre>
+mysql> desc certified;
++-------+---------+------+-----+---------+-------+
+| Field | Type    | Null | Key | Default | Extra |
++-------+---------+------+-----+---------+-------+
+| eid   | int(11) | NO   | PRI | 0       |       |
+| aid   | int(11) | NO   | PRI | 0       |       |
++-------+---------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+</pre>
+
+<h3 id="insertion-">Insertion:</h3>
+<pre>mysql> insert into flight values (1,'Bangalore','Mangalore',360,'10:45:00','12:00:00',10000),(2,'Bangalore','Delhi',5000,'12:15:00','04:30:00',25000),(3,'Bangalore','Mumbai',3500,'02:15:00','05:25:00',30000),(4,'Delhi','Mumbai',4500,'10:15:00','12:05:00',35000),(5,'Delhi','Frankfurt',18000,'07:15:00','05:30:00',90000),(6,'Bangalore','Frankfurt',19500,'10:00:00','07:45:00',95000),(7,'Bangalore','Frankfurt',17000,'12:00:00','06:30:00',99000);
+Query OK, 7 rows affected (0.06 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+</pre>
+<pre>
+mysql> select * from flight;
++----+-----------+-----------+----------+----------+----------+-------+
+| no | frm       | too       | distance | departs  | arrives  | price |
++----+-----------+-----------+----------+----------+----------+-------+
+|  1 | Bangalore | Mangalore |      360 | 10:45:00 | 12:00:00 | 10000 |
+|  2 | Bangalore | Delhi     |     5000 | 12:15:00 | 04:30:00 | 25000 |
+|  3 | Bangalore | Mumbai    |     3500 | 02:15:00 | 05:25:00 | 30000 |
+|  4 | Delhi     | Mumbai    |     4500 | 10:15:00 | 12:05:00 | 35000 |
+|  5 | Delhi     | Frankfurt |    18000 | 07:15:00 | 05:30:00 | 90000 |
+|  6 | Bangalore | Frankfurt |    19500 | 10:00:00 | 07:45:00 | 95000 |
+|  7 | Bangalore | Frankfurt |    17000 | 12:00:00 | 06:30:00 | 99000 |
++----+-----------+-----------+----------+----------+----------+-------+
+7 rows in set (0.00 sec)
+</pre>
+<pre>
+mysql> insert into aircraft values (123,'Airbus',1000),(302,'Boeing',5000),(306,'Jet01',5000),(378,'Airbus380',8000),(456,'Aircraft',500),(789,'Aircraft02',800),(951,'Aircraft03',1000);
+Query OK, 7 rows affected (0.07 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+
+mysql> select * from aircraft;
++-----+------------+---------------+
+| aid | aname      | cruisingrange |
++-----+------------+---------------+
+| 123 | Airbus     |          1000 |
+| 302 | Boeing     |          5000 |
+| 306 | Jet01      |          5000 |
+| 378 | Airbus380  |          8000 |
+| 456 | Aircraft   |           500 |
+| 789 | Aircraft02 |           800 |
+| 951 | Aircraft03 |          1000 |
++-----+------------+---------------+
+7 rows in set (0.00 sec)
+</pre>
+<pre>
+mysql> insert into employees values(1,'Ajay',30000),(2,'Ajith',85000),(3,'Arnab',50000),(4,'Harry',45000),(5,'Ron',90000),(6,'Josh',75000),(7,'Ram',100000);
+Query OK, 7 rows affected (0.29 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+</pre>
+<pre>
+mysql> select * from employees;
++-----+-------+--------+
+| eid | ename | salary |
++-----+-------+--------+
+|   1 | Ajay  |  30000 |
+|   2 | Ajith |  85000 |
+|   3 | Arnab |  50000 |
+|   4 | Harry |  45000 |
+|   5 | Ron   |  90000 |
+|   6 | Josh  |  75000 |
+|   7 | Ram   | 100000 |
++-----+-------+--------+
+7 rows in set (0.00 sec)
+</pre>
+<pre>
+mysql> insert into certified values (1,123),(2,123),(1,302),(5,302),(7,302),(1,306),(2,306),(1,378),(2,378),(4,378),(6,456),(3,456),(5,789),(6,789),(3,951),(1,951),(1,789);
+Query OK, 17 rows affected (0.30 sec)
+Records: 17  Duplicates: 0  Warnings: 0
+</pre>
+<pre>
+mysql> select * from certified;
++-----+-----+
+| eid | aid |
++-----+-----+
+|   1 | 123 |
+|   2 | 123 |
+|   1 | 302 |
+|   5 | 302 |
+|   7 | 302 |
+|   1 | 306 |
+|   2 | 306 |
+|   1 | 378 |
+|   2 | 378 |
+|   4 | 378 |
+|   3 | 456 |
+|   6 | 456 |
+|   1 | 789 |
+|   5 | 789 |
+|   6 | 789 |
+|   1 | 951 |
+|   3 | 951 |
++-----+-----+
+17 rows in set (0.00 sec)
+</pre>
+
+<h3 id="queries-">Queries:</h3>
+<h3 id="1-find-the-names-of-aircraft-such-that-all-pilots-certified-to-operate-them-have-salaries-more-than-rs-80-000-">1.Find the names of aircraft such that all pilots certified to operate them have salaries more than Rs 80,000.</h3>
+<pre>
+mysql> select distinct a.aname
+    -> from aircraft a,certified c,employees e
+    -> where a.aid=c.aid
+    -> and c.eid=e.eid
+    -> and not exists
+    -> (select *
+    -> from employees e1
+    -> where e1.eid=e.eid
+    -> and e1.salary<80000);
++------------+
+| aname      |
++------------+
+| Airbus     |
+| Boeing     |
+| Jet01      |
+| Airbus380  |
+| Aircraft02 |
++------------+
+5 rows in set (0.00 sec)
+</pre>
+
+<h3 id="2-for-each-pilot-who-is-certified-for-more-than-three-aircrafts-find-the-eid-and-the-maximum-cruisingrange-of-the-aircraft-for-which-he-she-is-certified-">2.For each pilot who is certified for more than three aircrafts,find the eid and the maximum cruisingrange of the aircraft for which he/she is certified.</h3>
+<pre>
+mysql> select c.eid,max(cruisingrange)
+    -> from certified c,aircraft a
+    -> where c.aid=a.aid
+    -> group by c.eid
+    -> having count(*)>3;
++-----+--------------------+
+| eid | max(cruisingrange) |
++-----+--------------------+
+|   1 |               8000 |
++-----+--------------------+
+1 row in set (0.00 sec)
+</pre>
+
+<h3 id="3-find-the-names-of-all-pilots-whose-salary-is-less-than-the-price-of-the-cheapest-route-from-bangalore-to-frankfurt-">3.Find the names of all pilots whose salary is less than the price of the cheapest route from Bangalore to Frankfurt.</h3>
+<pre>
+mysql> select distinct e.ename
+    -> from employees e
+    -> where e.salary<
+    -> (select min(f.price)
+    -> from flight f
+    -> where f.frm='Bangalore'
+    -> and f.too='Frankfurt');
++-------+
+| ename |
++-------+
+| Ajay  |
+| Ajith |
+| Arnab |
+| Harry |
+| Ron   |
+| Josh  |
++-------+
+6 rows in set (0.00 sec)
+</pre>
+
+<h3 id="4-for-all-aircrafts-with-cruisingrange-over-1000-kms-find-the-name-of-the-aircraft-and-the-average-salary-of-all-pilots-certified-for-this-aircraft-">4.For all aircrafts with cruisingrange over 1000 kms,find the name of the aircraft and the average salary of all pilots certified for this aircraft.</h3>
+<pre>
+mysql> select a.aid,a.aname,avg(e.salary)
+    -> from aircraft a,certified c,employees e
+    -> where a.aid=c.aid
+    -> and c.eid=e.eid
+    -> and a.cruisingrange>1000
+    -> group by a.aid,a.aname;
++-----+-----------+---------------+
+| aid | aname     | avg(e.salary) |
++-----+-----------+---------------+
+| 302 | Boeing    |    73333.3333 |
+| 306 | Jet01     |    57500.0000 |
+| 378 | Airbus380 |    53333.3333 |
++-----+-----------+---------------+
+3 rows in set (0.01 sec)
+</pre>
+
+<h3 id="5-find-the-names-of-pilots-certified-for-some-boeing-aircraft-">5.Find the names of pilots certified for some Boeing aircraft.</h3>
+<pre>
+mysql> select distinct e.ename
+    -> from employees e,aircraft a,certified c
+    -> where e.eid=c.eid
+    -> and c.aid=a.aid
+    -> and a.aname='Boeing';
++-------+
+| ename |
++-------+
+| Ajay  |
+| Ron   |
+| Ram   |
++-------+
+3 rows in set (0.00 sec)
+</pre>
+
+<h3 id="6-find-the-aid-s-of-all-aircraft-that-can-be-used-on-routes-from-bangalore-to-delhi-">6.Find the aid&#39;s of all aircraft that can be used on routes from Bangalore to Delhi.</h3>
+<pre>
+mysql> select a.aid
+    -> from aircraft a
+    -> where a.cruisingrange>
+    -> (select min(f.distance)
+    -> from flight f
+    -> where f.frm='Bangalore'
+    -> and f.too='Delhi');
++-----+
+| aid |
++-----+
+| 378 |
++-----+
+1 row in set (0.00 sec)
+</pre>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01_StudentClass/01_StudentClass.html" class="navigation navigation-prev " aria-label="Previous page: Problem 1: Student Class"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../03_StudentCoursesBooks/03_StudentCoursesBooks.html" class="navigation navigation-next " aria-label="Next page: Problem 3: Student Course Books"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -2,12 +2,17 @@ body {
 	background-image: url(../images/fsmk_menu_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
-	-moz-background-size: contain;
+	background-size: cover;
+	-moz-background-size: cover;
 	color: #ffffff;
 	border: none;
+	width: 100%
+	
 }
 
+.content {
+	width: 100%;
+}
 .page-header {
 	text-align: center;
 	border: none;
@@ -28,5 +33,30 @@ body {
 
 .list-group-item-text {
 	color: #ffffff;
+	text-align: center;
 
 }
+
+.navbar-footer {
+	text-align: center;
+}
+
+.divider-vertical {
+	margin: 0 3px;
+	border-left: 1px solid #F2F2F2;
+	border-right: 1px solid #FFF;
+}
+
+.back {
+	border-right: 2px solid #000;
+}
+
+.panel {
+	background: none;
+
+}
+
+.panel-default .panel-heading {
+	background: none;
+
+} 
